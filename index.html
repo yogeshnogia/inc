@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Inc42 Assignment</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Inc 42</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <!--<ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul> -->
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="container main">
+        <div class="edit">
+            <div class="dropdown plus">
+                <button class="btn btn-primary dropdown-toggle" id="customize" type="button" data-toggle="dropdown">Customize columns
+                    <span class="glyphicon glyphicon-plus-sign"></span></button>
+                <div class="dropdown-menu drop">
+                 
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="" name="founders" id="founders">Founders</label>
+                        </div>
+                   
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="" name="stage" id="stage">Stage</label>
+                        </div>
+                   
+                   
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="" name="employees" id="employees">Employees</label>
+                        </div>
+                   
+                </div>
+            </div>
+            <h4><span class="glyphicon glyphicon-arrow-left arrow"></span> &nbsp; &nbsp;<span class="glyphicon glyphicon-arrow-right arrow"></span>
+            </h4>
+        </div>
+        <div class="content">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th class="company">Company</th>
+                            <th class="location">Location</th>
+                            <th class="market">Market</th>
+                            <th class="website">Website</th>
+                            <th class="employees hide">Employees</th>
+                            <th class="stage hide">Stage</th>
+                            <th class="founders hide">Founders</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+                        <!-- Ajax here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

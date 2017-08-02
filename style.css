@@ -1,0 +1,105 @@
+body{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-default{
+	box-shadow: 0 0px 3px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+	background: white;
+    padding: 7px 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: #9C27B0;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.main{
+	margin-top: 80px;
+}
+
+.edit{
+	display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.plus{
+	color: #23a5f0;
+	margin-right: 35px;
+	
+}
+
+.arrow {
+	background: #bcc4cb;
+    color: white;
+    padding: 3px;
+    border-radius: 15px;
+    transition: 0.20s all ease-in-out;
+    cursor: pointer;
+}
+
+.arrow:hover {
+	background: #9C27B0;
+}
+
+.table-responsive{
+	position: relative;
+}
+
+.checkbox label {
+	color: #9C27B0;
+}
+
+#customize{
+	background: white;
+    color: #23a5f0;
+    font-size: 17px;
+    position: relative;
+    top: 6px;
+    border: none;
+}
+
+#customize:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#customize:focus {
+	outline: 0;
+	border: none;
+}
+
+.display{
+	display: table-cell;
+}
+
+.hide{
+	display: none;
+}
+
+.drop{
+	    padding: 2px 1px 6px 15px;
+}
+
+.table>tbody>tr>td{
+	max-width: 200px;
+}
+
+@media screen and (max-width: 767px){
+.table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+    white-space: normal;
+    min-width: 180px;
+}
+
+
+
+
+
+
+
+
+
+
